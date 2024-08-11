@@ -1,17 +1,19 @@
 {
     "name": "webcrawlerhttp",
     "version": "1.0.0",
-    "description": "",
+    "description": "This projects is for testing purposes only",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "vitest",
-        "start": "node mon.js"
+        "start": "nodemon main.js",
+        "test": "vitest"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "jsdom": "^24.1.1",
+    "devDependencies": {
         "vitest": "^2.0.5"
+    },
+    "dependencies": {
+        "jsdom": "^24.1.1"
     }
 }
