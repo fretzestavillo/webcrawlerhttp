@@ -10,6 +10,10 @@ function printReport(pages) {
     const count = sortedPage[1];
     console.log(`Found ${count} internal links to ${url}`);
   }
+
+  console.log("==========");
+  console.log("END REPORT");
+  console.log("==========");
 }
 
 // sortPages sorts a dictionary of pages
