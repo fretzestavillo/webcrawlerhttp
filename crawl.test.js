@@ -42,8 +42,8 @@ describe("Test for crawl.js", () => {
                             <a href="https://blog.boot.dev"><span>Go to Boot.dev</span></a>
                         </body>
                     </html>`;
-    const inputBaseUrl = "https://blog.boot.dev";
-    const actual = getURLsFromHTML(inputHtml, inputBaseUrl);
+    // const inputBaseUrl = "https://blog.boot.dev";
+    const actual = getURLsFromHTML(inputHtml);
     const expected = ["https://blog.boot.dev/"];
     expect(actual).toEqual(expected);
   });
